@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>
+    Post Job
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+ 
+    
+    
+        <!-- Main style sheet -->
+       
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="Postjob.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <script type="text/javascript">
+          function show_sidebar()
+                      {
+                      document.getElementById('myid').style.visibility="visible";
+                      }
+                      
+                      function hide_sidebar()
+                      {
+                      document.getElementById('myid').style.visibility="hidden";
+                      }
+                  
+                      
+      
+          $(document).ready(function () {
+              $('#sidebarCollapse').on('click', function () {
+                  $('#sidebar').toggleClass('active');
+              });
+          });   
+          </script>
+    </head>
+    <body>
+          
+          <div class="topnav sticky" id="myTopnav">
+            <a href="#home" class="active"><button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+                
+            </button></a>
+          
+            <a href="javascript:void(0);" class="icon" onclick="Repon_nav()">
+                
+              <i class="fa fa-bars"></i>
+            </a>
+           
+          </div>
+        
+             <!-- End menu -->  
+                 <div class="row">
+                     <div class="col-sm-2">
+                  <div class="wrapper ">
+                    <!-- Sidebar Holder -->
+                    <nav id="sidebar">
+                       
+        
+                       
+                            
+                           
+                                <a class="create_btn hoverable"> <i class="glyphicon glyphicon-plus"></i>	
+                                     Create</a>
+                               
+                             
+                            <ul class="list-unstyled">
+                       <li>
+                         <a href="slider.html"> Sliders</a>
+                                </li>
+                                
+                                        <li>
+                                <a href="blog_create.html" >Blog</a>
+                               
+                            </li>
+                            <li>
+                                <a href="news.html"> </i>
+                                   News
+                                </a>
+                            </li>
+                            <li >
+                              <a href="gallery.html"></i>
+                             Gallery </a>
+                            </li>
+                            <li class="active">
+                              <a href="postjob.html">Post Job</a>
+                            </li>
+                           
+                        </ul>
+                      
+                     </nav>                       
+
+                      </div>
+                      </div>
+                      <div class="col-sm-10">
+                        <div class="container">
+                         
+                                <div class="body formback">
+                                        <form action="action_page.php">
+                                                <div class="container form_body">
+                                                  <h1>Post Job</h1>
+                                            
+                                                  <hr>
+                                              
+                                                  <label for="email"><b>Job Title</b></label>
+                                                  <br>
+                                                  <input type="text" class= "form-control job_title" placeholder="Enter Job title">
+                                              <br>
+                                                  <label for="psw"><b>Description</b></label>
+                                                  <br>
+                                                  <textarea  class="form-control descreption_text" rows="4" cols="50"></textarea>
+                                          
+                                              <br>
+                                                  <label for="psw-repeat"><b>Address</b></label>
+                                                  <br>
+                                                  <textarea  class="form-control descreption_text" rows="4" cols="50"></textarea>
+                                                  <br>
+                                                  <label for="pack_age"><b>Package</b></label>
+                                                  <br>
+                                                  <input list="browsers" class="form-control job_title" name="browser">
+                                                  <br>
+                                                  <datalist id="browsers">
+                                                    <option value="Internet Explorer">
+                                                    <option value="Firefox">
+                                                    <option value="Chrome">
+                                                    <option value="Opera">
+                                                    <option value="Safari">
+                                                  </datalist>
+                                                  <br>
+                                                  <label for="pack_age"><b>Experience</b></label>
+                                                  <br>
+                                                  <input list="year" class="form-control job_title" name="year">
+                                                  <br>
+                                                  <datalist id="year">
+                                                    <option value="2 year">
+                                                    <option value="3 year">
+                                                     <option value="5 year">
+                                                    <option value="8 year">
+                                                    <option value="10+ year">
+                                                  </datalist>
+                                                  <label for="pack_age"><b>E-mail</b></label>
+                                                  <br>
+                                                  <input type="email" class="form-control job_title" name="emailaddress">
+                                                 <br>
+                                                  <label for="pack_age"><b>Phone Number</b></label>
+                                                  <br>
+                                                  <input type="tel" class="form-control job_title" name="usrtel" placeholder="+91 9854761256">
+                                              <hr>
+                                                  <p>By creating an account you agree to our <a href="#" class="terms">Terms & Privacy</a>.</p>
+                                                  <button type="submit" class="btn btn-info">Register</button>
+                                                </div>
+                                        
+                                </div>
+                            </div>
+                                
+                        </div>
+                      </div>
+                     
+                        </body>
+                        </html>

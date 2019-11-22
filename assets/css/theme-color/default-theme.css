@@ -1,0 +1,36 @@
+
+/*=======================================
+Template Design By MarkUps.
+Author URI : http://www.markups.io/
+========================================*/
+.scrollToTop {
+  background-color: #01bafd;
+  border: 2px solid #01bafd;
+}
+
+
+
+
+#mu-menu .navbar-header .navbar-brand i {
+  color: #01bafd;
+}
+#mu-menu .navbar-default .navbar-nav li > a:hover, #mu-menu .navbar-default .navbar-nav li > a:focus {
+  border-color: #01bafd;
+  color: #01bafd;
+}
+#mu-menu .navbar-default .navbar-nav li .dropdown-menu {
+  border-top: 2px solid #01bafd;
+}
+#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
+  background-color: #01bafd;
+}
+#mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
+  background-color: #01bafd;
+}
+
+#mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus {
+  color: #01bafd;
+  border-bottom: 2px solid #01bafd;
+  background-color: transparent;
+}
+

@@ -1,0 +1,163 @@
+/*
+  Template Name: Varsity
+  Author : MarkUps
+  Author URI: http://www.markups.io/
+  Version: 1.0
+  Tags: light, white, education, online education, school, college, university multi page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
+
+*/
+
+/* Table of Content
+==================================================
+#BASIC TYPOGRAPHY
+#HEADER SECTION
+#NAVBAR SECTION
+#SLIDER SECTION
+#SERVICE SECTION
+#ABOUT US SECTION
+#COUNTER SECTION
+#FEATURES SECTION
+#LATEST COURSES SECTION
+#TEACHER SECTION
+#TESTIMONIAL SECTION
+#FROM BLOG SECTION
+# COURSES PAGE
+#BLOG PAGE
+#GALLERY PAGE
+#CONTACT PAGE
+#ERROR  PAGE
+#FOOTER SECTION
+#RESPONSIVE DESIGN
+*/
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+.main_cont {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  overflow-x: hidden;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-border {
+  border: none;
+}
+
+/* MODULES - Individual site components */
+
+/* LAYOUTS - Page layout styles */
+/*==================
+ HEADER SECTION
+====================*/
+
+
+/*==================
+ NAVBAR SECTION
+====================*/
+#mu-menu {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-menu .navbar-header .navbar-brand {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+#mu-menu .navbar-header .navbar-brand i {
+  font-size: 35px;
+}
+
+#mu-menu .navbar-default {
+  background-color: #fff;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0px;
+}
+#mu-menu .navbar-default .navbar-nav li > a {
+  border-bottom: 2px solid transparent;
+  
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: -1px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#mu-menu .navbar-default .navbar-nav li #mu-search-icon:hover, #mu-menu .navbar-default .navbar-nav li #mu-search-icon:focus {
+  border: none;
+}
+#mu-menu .navbar-default .navbar-nav li .dropdown-menu {
+  border-radius: 0px;
+}
+#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a {
+  color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
+  color: #fff;
+}
+#mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
+  color: #fff;
+}
+
+/* ALL SECTION */
+/*scrol to top*/
+.scrollToTop {
+  border-radius: 4px;
+  bottom: 60px;
+  color: #fff;
+  display: none;
+  font-size: 30px;
+  line-height: 50px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 999;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.scrollToTop i {
+  display: block;
+}
+.scrollToTop span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.scrollToTop:hover,
+.scrollToTop:focus {
+  color: #fff;
+}
+
+
+
+/*==================
+ SLIDER SECTION
+====================*/

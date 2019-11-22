@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>
+            Blog
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="blog_create.css">
+      
+    </head>
+    <body>
+            <div class="topnav sticky" id="myTopnav">
+                    <a href="#home" class="active"><button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                        <i class="glyphicon glyphicon-align-left"></i>
+                        
+                    </button></a>
+                    
+                   .
+                    <a href="javascript:void(0);" class="icon" onclick="Repon_nav()">
+                        
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                 <div class="row">
+                     <div class="col-sm-4">
+                  <div class="wrapper ">
+                    <!-- Sidebar Holder -->
+                    <nav id="sidebar">
+                       
+        
+                       
+                            
+                           
+                        <a class="create_btn hoverable"> <i class="glyphicon glyphicon-plus"></i>	
+                          Create</a>
+                    
+                  
+                 <ul class="list-unstyled">
+            <li>
+              <a href="slider.html"> Sliders</a>
+                     </li>
+                     
+                             <li class="active">
+                     <a href="blog_create.html" >Blog</a>
+                    
+                 </li>
+                 <li>
+                     <a href="news.html"> </i>
+                        News
+                     </a>
+                 </li>
+                 <li>
+                   <a href="gallery.html"></i>
+                  Gallery </a>
+                 </li>
+                 <li>
+                   <a href="postjob.html">Post Job</a>
+                 </li>
+                 
+             </ul>
+                        </nav>
+                       
+                      
+
+                      </div>
+                                    
+                
+                    </div>
+                    
+        
+    
+
+<div class="col-sm-3">
+        <div class="card card_one card_first" style="max-width:400px">
+
+                <!-- Card image -->
+                <img class="card-img-top responsive" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                 width="360px" height="300px" alt="Card image cap">
+              
+                <!-- Card content -->
+                <div class="card-body">
+              
+                  <!-- Title -->
+                  <h4 class="card-title"><a>Card title</a></h4>
+                  <!-- Text -->
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- Button -->
+                  <a class="btn btn-info btn-card"  data-toggle="collapse" href="#multiCollapseExample1" role="button" 
+                  aria-expanded="false"
+                   aria-controls="multiCollapseExample1"> READ MORE</a>
+              
+                   <div class="collapse multi-collapse" id="multiCollapseExample1">
+                              <p>        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
+                                richardson ad squid. Nihil
+                          anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                       </p>
+                      </div>
+                </div>
+              
+              </div>
+              <!-- Card -->
+</div>
+<div class="col-sm-3">
+        <div class="card card_one card_two" style="max-width:400px">
+
+                <!-- Card image -->
+                <img class="card-img-top responsive" src="assests/blog.jpg" width="360px" height="300px" alt="Card image cap">
+              
+                <!-- Card content -->
+                <div class="card-body">
+              
+                  <!-- Title -->
+                  <h4 class="card-title"><a>Card title</a></h4>
+                  <!-- Text -->
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- Button -->
+                  <a class="btn btn-info btn-card"  data-toggle="collapse" href="#multiCollapseExample1" role="button"> READ MORE</a>
+              
+                 
+                </div>
+              
+              </div>
+
+</div>
+<div class="col-sm-3">
+        <div class="card card_one card_third" style="max-width:400px">
+
+                <!-- Card image -->
+                <img class="card-img-top responsive" src="assests/blogging.jpg" width="360px" height="300px" alt="Card image cap">
+              
+                <!-- Card content -->
+                <div class="card-body">
+              
+                  <!-- Title -->
+                  <h4 class="card-title"><a>Card title</a></h4>
+                  <!-- Text -->
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- Button -->
+                  <a class="btn btn-info btn-card"  data-toggle="collapse" href="#multiCollapseExample1" role="button"> READ MORE</a>
+              
+                 
+                </div>
+              
+              </div>
+</div>
+<div class="col-sm-3">
+        <div class="card card_one card_four" style="max-width:400px">
+
+                <!-- Card image -->
+                <img class="card-img-top responsive" src="assests/blogging_one.jpg" width="360px" height="300px" alt="Card image cap">
+              
+                <!-- Card content -->
+                <div class="card-body">
+              
+                  <!-- Title -->
+                  <h4 class="card-title"><a>Card title</a></h4>
+                  <!-- Text -->
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- Button -->
+                  <a class="btn btn-info btn-card"  data-toggle="collapse" href="#multiCollapseExample1" role="button"> READ MORE</a>
+              
+                  
+                </div>
+              
+              </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Bootstrap Js CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });   
+              
+function Repon_nav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+       
+</script>
+
+    </body>
+</html>

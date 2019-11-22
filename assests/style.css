@@ -1,0 +1,219 @@
+
+
+/*==================
+ GALLERY PAGE
+====================*/
+
+#mu-gallery {
+  display: inline;
+  float: left;
+  
+  padding: 9px 0;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  padding: 20px 0;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 0 5px;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li:hover, #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li:focus {
+  background-color: #fff;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul .active {
+  background-color: #fff;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery {
+  display: inline;
+  float: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item {
+  display: inline;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item:hover .mu-single-gallery-img img {
+  transform: scale(1.3);
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item:hover .mu-single-gallery-info {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  transform: scale(1);
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item:hover .mu-single-gallery-info .mu-single-gallery-info-inner {
+  transform: scale(1);
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
+  display: inline;
+  float: right;
+  height: 220px;
+  overflow: hidden;
+  width: 100%;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
+  background-color: rgba(0, 0, 0, 0.2); 
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+
+  padding-top: 70px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transform: scale(1);
+  width: 100%;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transform: scale(0);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner h4 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner a {
+  color: #fff;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 10px;
+  text-align: center;
+  width: 40px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#mu-gallery .mu-gallery-area #mixit-container .mix {
+  display: none;
+}
+
+/*==================
+ CONTACT PAGE
+====================*/
+
+
+/*==================
+ RESPONSIVE DESIGN
+====================*/
+
+
+@media (max-width: 767px) {
+ 
+
+  #mu-gallery {
+    padding: 50px 0;
+  }
+
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
+    height: 320px;
+  }
+
+
+}
+@media (max-width: 640px) {
+ 
+
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 480px) {
+ 
+
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
+    height: 280px;
+  }
+
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
+    margin-bottom: 10px;
+  }
+
+ 
+}
+@media (max-width: 360px) {
+ 
+  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
+    height: 220px;
+  }
+
+
+  }
+

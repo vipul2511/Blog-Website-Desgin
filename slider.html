@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>
+    Slider  
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="slider.css">
+     
+       
+           
+                       
+        
+      
+    </head>
+    <body>
+            <div class="topnav sticky" id="myTopnav">
+                    <a href="#home" class="active"><button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                        <i class="glyphicon glyphicon-align-left"></i>
+                        
+                    </button></a>
+                    
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="Repon_nav()">
+                        
+                      <i class="fa fa-bars"></i>
+                    </a>
+                    
+                  </div>
+            
+                 <div class="row">
+                     <div class="col-sm-3">
+                  <div class="wrapper ">
+                    <!-- Sidebar Holder -->
+                    <nav id="sidebar">
+                       
+        
+                       
+                            
+                           
+                                <a class="create_btn hoverable"> <i class="glyphicon glyphicon-plus"></i>	
+                                     Create</a>
+                               
+                             
+                            <ul class="list-unstyled">
+                       <li class="active">
+                                <a href="slider.html">Sliders</a>
+                                </li>
+                                
+                                        <li  >
+                                <a href="blog_create.html" >Blog</a>
+                               
+                            </li>
+                            <li>
+                                <a href="news.html">News
+
+                                </a>
+                            </li>
+                            <li>
+                              <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="postjob.html">Post Job</a>
+                              </li>
+                        </ul>
+                      
+                     </nav>                       
+
+                      </div>
+
+                                    
+                
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="w3-container card card_one">
+                   
+                      
+                        <div class="w3-card-4">
+                          <img src="assests/blogging.jpg" class="img-responsive" alt="Norway" style="width:460px">
+                          <div class="w3-container w3-center">
+                            <p class="card_text" >The Italian blog    
+                            <a href="#"><i class="glyphicon glyphicon-trash"></i>	</a> </p>
+                           
+                          </div>
+                        </div>
+                      </div>    
+                      </div>
+                      <div class="col-sm-4">
+                            <div class="w3-container card card_one">
+                              
+                           
+                              
+                                <div class="w3-card-4" >
+                                  <img src="assests/blogging.jpg" class="img-responsive" alt="Norway" style="width:460px">
+                                  <div class="w3-container w3-center card-body ">
+                                    <p class="card_text">THE blog News
+                                      
+                                       
+                                         <a href="#" ><i class="glyphicon glyphicon-trash"></i></a>  </p>     
+                                  </div>
+                                </div>
+                              </div>    
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="w3-container card card_one " >
+                               
+                                  
+                                    <div class="w3-card-4" >
+                                      <img src="assests/blogging.jpg" class="img-responsive" alt="Norway" style="width:460px">
+                                      <div class="w3-container w3-center">
+                                        <p class="card_text">THE blog News   
+                                       <a href="#"><i class="glyphicon glyphicon-trash"></i></a></p>
+                                      </div>
+                                    </div>
+                                  </div>    
+                                  </div>
+
+                                
+                    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                    <!-- Bootstrap Js CDN -->
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                    
+                    <script type="text/javascript">
+                     function show_sidebar()
+                                    {
+                                    document.getElementById('myid').style.visibility="visible";
+                                    }
+                                    
+                                    function hide_sidebar()
+                                    {
+                                    document.getElementById('myid').style.visibility="hidden";
+                                    }
+                                
+                                    
+                    
+                        $(document).ready(function () {
+                            $('#sidebarCollapse').on('click', function () {
+                                $('#sidebar').toggleClass('active');
+                            });
+                        });   
+                                  
+                    function Repon_nav() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }                              
+                    
+                                      
+                    
+                           
+                    </script>
+                    </body>
+                    </html>

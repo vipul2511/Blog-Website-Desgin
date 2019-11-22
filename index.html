@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <title>Reponsive webpage </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      </head>
+        <style>
+            body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+
+  color: lightgray;
+
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: sticky;
+  position:-webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+/*.active {
+  background-color:rgba(13, 221, 236, 0.911);
+  color: white;
+}*/
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.dimage{
+    padding-top: 6vh;
+    
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+    
+}
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+ 
+  
+ 
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+ 
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute; 
+  backface-visibility: hidden;
+}
+
+/*.flip-box-front {
+  background-color: #bbb;
+
+  color: black;
+}*/
+
+.flip-box-back {
+  background-color:rgb(155, 155, 155);
+  width: 100%;
+  height: 60%;
+ 
+  
+  color:white;
+  transform: rotateY(180deg);
+}
+.new_photo
+{
+    width: 80%;
+    height: 60%;
+}
+.para_item{
+    text-align: left;
+
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="topnav sticky" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="Repon_nav()">
+                
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <section class="photo-area" id="home">
+          <div class="Container">
+              <div class="row ">
+                    <div class="col-sm-4">
+                    <div class="flip-box">
+                            <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                 
+                                        
+                      <img class="dimage" src="assests/3d-game.jpg" alt="3d-game">
+                    </div>
+                    <div class="flip-box-back">
+                            <h2>Paris</h2>
+                            <p>What an amazing city</p>
+                          </div>
+                </div>
+            </div>
+           
+            </div>
+                    <div class="col-sm-4">
+                        <div class="flip-box">
+                                <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                      <img class="dimage" src="assests/chees.jpg" alt="3d-game">
+                      </div>
+                      <div class="flip-box-back">
+                            <h2>london</h2>
+                            <p>What an amazing city</p>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+
+                         
+                      <div class="col-sm-4">
+                            <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                            <div class="flip-box-front">
+                            <img class="dimage" src="assests/pillo.jpg" alt="3d-game">
+                            </div>
+                            <div class="flip-box-back">
+                                    <h2>NEW Zealand</h2>
+                                    <p>What an amazing city</p>
+                                  </div>
+                                  </div>
+                                  </div>
+                                  </div>
+                           
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section class="news-area" id="news">
+              <div class="Container-fluid">
+                  <h1>
+                      NEW page
+                  </h1>
+                  <div class="row">
+                  <div class="col-sm-6 para_item">
+
+                  <p>May in final push to save Brexit deal
+                        But hardline pro-Brexit MPs say they will oppose Theresa May's deal, despite some last-minute adjustments.
+                        
+                        6m7 minutes agoUK Politics6351 Comments
+                        Theresa May
+                        Related content
+                        DUP 'will not vote' for Brexit deal
+                        VideoMay: You should hear Juncker's voice
+                        VideoCorbyn: Nothing has changed
+                        LIVEMPs debate Brexit deal ahead of vote 6 minutes ago
+                        6 minutes ago Former Tory party leader to vote against deal6mFormer Tory party leader to vote against deal
+                        6 minutes ago Could Meaningful Vote 3 take place next week?6mCould Meaningful Vote 3 take place next week?
+                        7 minutes ago EU diplomat: We've run out of ideas7mEU diplomat: We've run out of ideas
+                        Live MPs debate Brexit deal ahead of vote 6 minutes ago
+                        Felicity Huffman and Lori Loughlin
+                        FBI uncovers celebrity exam cheat plot
+                        Desperate Housewives star Felicity Huffman is among at least 40 people charged in a cheating conspiracy.
+                        
+                        1han hour agoUS & Canada
+                        Siti Aisyah, who was previously a suspect in the murder case of North Korean leader's half brother Kim Jong Nam, laughs during a news conference
+                        Murder suspect 'shocked' at sudden release
+                        Siti Aisyah had been charged with killing Kim Jong-un's half brother with VX nerve agent.
+                        
+                        1han hour agoAsia
+                        Kim Jong-un
+                        N Korea vote surprise as Kim 'doesn't run'
+                        The rubberstamp election in North Korea saw a predictable result - but with one historic first.
+                        
+                        8h8 hours agoAsia
+                        Algerians continue their protests
+                        VIDEO 1 MINUTE 10 SECONDSVIDEO 1 MINUTE 10 SECONDS1:10
+                        VIDEO 1 MINUTE 10 SECONDSAlgeria rallies continue despite pull-out
+                        Protesters march again in Algiers despite President Bouteflika's decision not to seek a fifth term.
+                        
+                        3h3 hours agoAfrica
+                        Hawking's nurse struck off over his care
+                        5h5 hours agoSuffolk
+                        Europe and India join Boeing aircraft ban after crash
+                        1ma minute agoBusiness
+                        Venezuela's Guaidó faces sabotage claims
+                        1han hour agoLatin America & Caribbean
+                        Evidence found of massive solar storm
+                        6h6 hours agoScience & Environment
+                        VIDEO 1 MINUTE 40 SECONDSHow urban farming is </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="new_photo" src="assests/3d-game.jpg" alt="game">
+                        </div>
+                        </div>
+
+
+              </div>
+          </section>
+         
+          </div>
+          <script>
+              
+            function Repon_nav() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>          
+    </body>
+</html>
